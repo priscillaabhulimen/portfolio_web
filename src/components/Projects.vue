@@ -3,7 +3,7 @@
     <h1 id="projects-heading" class="text-3xl font-serif mb-16">Recent projects</h1>
 
     <div class="grid md:grid-cols-2 gap-20 items-center">
-      <img src="../assets/images/mobile.png" alt="Pay Me Blue app preview" class="rounded-xl shadow-xl" />
+      <img src="../assets/images/mobile.png" alt="this is an image of the Pay Me Blue app preview" class="rounded-xl shadow-xl" />
 
       <div>
         <h2 class="text-2xl font-semibold">BLUE</h2>
