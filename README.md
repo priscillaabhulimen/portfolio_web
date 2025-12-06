@@ -18,7 +18,7 @@ This portfolio is designed for employers and anyone interested in accessible web
 
 ## Installation
 To get started with the project locally, follow these steps:
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone [<this repository>](https://github.com/priscillaabhulimen/portfolio_web)`
 2. Navigate into the project folder: `cd priscilla-portfolio`
 3. Install dependencies: `npm install`
 4. Run the development server: `npm run dev`
