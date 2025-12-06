@@ -1,6 +1,6 @@
 <template>
   <section id="contact" aria-labelledby="contact-heading" class="py-24 text-center">
-    <h2 id="contact-heading" class="text-4xl font-serif mb-6">Contact</h2>
+    <h1 id="contact-heading" class="text-4xl font-serif mb-6">Contact</h1>
 
     <p class="opacity-70 mb-10">
       You can reach me via social media or email using the link below.
