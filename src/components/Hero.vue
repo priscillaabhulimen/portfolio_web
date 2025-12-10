@@ -42,7 +42,7 @@ onBeforeUnmount(() => {
                 </p>
 
                 <h2 class="text-4xl lg:text-7xl font-serif relative overflow-hidden h-[1.8em]" aria-live="polite text-center"
-                    aria-atomic="true" tabindex="0" aria-label="Android iOS Web Backend Design">
+                    aria-atomic="true" tabindex="0">
                     <transition name="slide-up" mode="out-in">
                         <span :key="currentRole" class="absolute inset-0 flex items-center" role="text">
                             {{ currentRole }}
