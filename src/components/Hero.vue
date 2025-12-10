@@ -129,7 +129,7 @@ onBeforeUnmount(() => {
     }
 }
 
-@media screen and (max-width: 480px ){
+@media screen and (max-width: 860px ){
     #about {
         flex-direction: column;
         flex-wrap: nowrap;
