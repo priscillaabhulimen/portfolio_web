@@ -14,24 +14,24 @@ onMounted(() => {
   navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault()
-      const targetId = link.getAttribute('href').substring(1)
-      const targetElement = document.getElementById(targetId)
 
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' })
-      }
+      const id = link.getAttribute('href')?.slice(1)
+      const target = document.getElementById(id)
+
+      target?.scrollIntoView({ behavior: 'smooth' })
+  target?.focus({ preventScroll: true })
     })
   })
 })
 </script>
 
 <template>
+  <a href="#about" class="sr-only focus:not-sr-only fixed top-2 left-2 bg-black text-white p-2 z-[100]">
+    Skip to content
+  </a>
   <Navbar />
   <Hero />
   <Work />
   <Projects />
   <Contact />
-  <a href="#about" class="sr-only focus:not-sr-only fixed top-2 left-2 bg-black text-white p-2">
-    Skip to content
-  </a>
 </template>

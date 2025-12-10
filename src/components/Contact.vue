@@ -23,7 +23,7 @@
       <!-- Submit Button -->
       <a @click="sendEmail"
         class="inline-block px-10 py-4 rounded-xl border border-white focus-visible:outline max-w-[200px] text-center"
-        aria-label="Send Priscilla an email">
+        aria-label="Send Priscilla an email" tabindex="0">
         Send Email
       </a>
     </form>
@@ -37,7 +37,7 @@
 
       <a href="https://bento.me/priscilla-a" target="new"
         class="inline-block px-10 py-4 rounded-xl border border-white focus-visible:outline max-w-[200px] text-center"
-        aria-label="Get all Priscilla's links in one place">
+        aria-label="Get all Priscilla's links in one place" tabindex="0">
         See all my links
       </a>
     </div>

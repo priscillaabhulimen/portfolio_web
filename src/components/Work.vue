@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 text-center">
+  <section class="py-16 text-center" tabindex="0">
     <h2 class="text-xl mb-6">I work with…</h2>
 
     <div class="flex justify-center gap-4 flex-wrap">
